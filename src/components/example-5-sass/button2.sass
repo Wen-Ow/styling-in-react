@@ -1,0 +1,43 @@
+$sass-pink: #ce649a;
+$bright: hotpink;
+
+// .sassy-button {
+//   background-color: $sass-pink;
+//   border-radius: 8px;
+//   color: white;
+//   font-size: 24pt;
+//   padding: 15px 50px;
+//   width: 300px;
+
+//   &:hover {
+//     background-color: $bright;
+//   }
+// }
+
+.container 
+  display: flex
+  justify-content: center;
+  align-items: center;
+  height: 100vh; // Full height of the viewport
+
+  button {
+    background-color: $sass-pink;
+    border-radius: 8px;
+    color: $sass-pink;
+    font-size: 34pt;
+    padding: 15px 50px;
+    width: 350px;
+
+    &:hover {
+      background-color: $bright;
+    }
+  }
+
+  p {
+    // Additional styles for a paragraph element inside the container
+    font-size: 20pt;
+    color: $sass-pink;
+    margin-left: 20px; // Space between the button and the paragraph
+    transition: color 0.3s;
+  
+

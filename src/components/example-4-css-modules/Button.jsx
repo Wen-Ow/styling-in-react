@@ -1,11 +1,11 @@
 import styles from "./button.module.css";
+/* Represent your file with a name  - name.className*/
 
 const Button = ({ buttonText }) => {
   return <button className={styles.btn}>{buttonText}</button>;
 };
 
 export default Button;
-
 
 // Copy;
 // Kebab-case class names will cause problems when using dot notation

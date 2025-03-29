@@ -4,15 +4,20 @@ import Button2 from "./components/example-2-inline-css/Button";
 import Button3 from "./components/example-3-styled-components/Button";
 import Button4 from "./components/example-4-css-modules/Button";
 import Button5 from "./components/example-5-sass/Button";
+import Button6 from "./components/example-6-tailwindcss/Button";
 
 function App() {
   return (
     <div className="App">
       <Button1 buttonText="Example 1" />
       <Button2 buttonText="Example 2" />
-      <Button3 buttonText="Example 3" />
+
+      <Button3 buttonText="Example 3" color="pink" bgColor="yellow" />
+      <Button3 buttonText="Example 3" color="green" />
+
       <Button4 buttonText="Example 4" />
-      <Button5 buttonText="Example 5" />
+      {/* <Button5 buttonText="Example 5" /> */}
+      <Button6 buttonText="Tailwind" />
     </div>
   );
 }

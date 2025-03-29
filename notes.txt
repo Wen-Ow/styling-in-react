@@ -14,3 +14,17 @@ In their own words, Styled-Components “Utilizes tagged template literals (a re
 5. SASS: Requires a package: npm install sass.
 
 Sass: Sass is one of the most robust, stable, and powerful professional-grade CSS extension languages in the world.
+
+style={} in React is similar to style="" in HTML
+
+SASS (SASS and SCSS fall under the same category): is a way to put together CSS in a tree-like structure (parent child relationship)
+
+
+Differences:
+.sass 
+    - No curly brackets, no semi-colons
+    - Uses indentation
+
+.scss
+    - Curly brackets + semi-colons
+    - Uses {}
